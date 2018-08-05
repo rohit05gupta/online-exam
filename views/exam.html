@@ -10,9 +10,9 @@
 		<div id="vue-app">
 			<h1>Question</h1>
 			<p>{{Question.text}}</p>
-					<p v-for="option in Question.options">
-						<input type="radio" name="optionSelected" value="">{{option}}
-					</p>
+				<p v-for="option in Question.options">
+					<input type="radio" name="optionSelected" value="">{{option}}
+				</p>
 			<button v-on:click="counter -= 1">Prev</button>
 			<button v-on:click="counter += 1">Next</button>
 		</div>
