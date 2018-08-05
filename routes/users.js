@@ -184,5 +184,4 @@ router.get('/logout', function (req, res) {
 });
 
 module.exports = router;
-//mongod -dbpath C:\Users\Shivani\Desktop\Projects\online-exam\data\db
-//https://appdividend.com/2018/05/08/vuex-axios-get-request-tutorial-with-example/
+
